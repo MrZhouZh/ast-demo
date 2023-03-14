@@ -21,6 +21,9 @@ category: JavaScript
 ### Progressing
 
 - [入门尝鲜](./simple.js)
-- [原版使用babel-plugin-transform-es2015-arrow-functions](./use-transform-es2015-arrow-functions.js)
-- [实现简易版babel-plugin-transform-es2015-arrow-functions](./babel-plugin-arrow-function.js)
-- [实现自定义console.log 信息插件](./babel-plugin-console.js)
+- [原版使用babel-plugin-transform-es2015-arrow-functions](./plugins/use-transform-es2015-arrow-functions.js)
+- [实现简易版babel-plugin-transform-es2015-arrow-functions](./plugins/babel-plugin-arrow-function.js)
+- [实现自定义console.log 信息插件](./plugins/babel-plugin-console.js)
+- [实现监控系统日志插件](./plugins/babel-plugin-auto-import-log.js)
+- [实现no-console的eslint插件](./plugins/babel-plugin-no-console-eslint.js)
+- [实现代码压缩插件](./plugins/babel-plugin-uglify.js)
