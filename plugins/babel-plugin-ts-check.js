@@ -49,3 +49,8 @@ const { code } = core.transform(sourceCode, {
 })
 
 console.log(code)
+// Error: 无法把StringLiteral类型赋值给NumbericLiteral类型
+//   1 |
+// > 2 |   var age: number = "12";
+//     |                     ^^^^
+//   3 |
