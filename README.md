@@ -22,4 +22,5 @@ category: JavaScript
 
 - [入门尝鲜](./simple.js)
 - [原版使用babel-plugin-transform-es2015-arrow-functions](./use-transform-es2015-arrow-functions.js)
-- [实现简易版babel-plugin-transform-es2015-arrow-functions](./babel-plugin-demo.js)
+- [实现简易版babel-plugin-transform-es2015-arrow-functions](./babel-plugin-arrow-function.js)
+- [实现自定义console.log 信息插件](./babel-plugin-console.js)

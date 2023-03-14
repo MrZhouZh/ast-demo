@@ -25,3 +25,4 @@ function compile(code) {
 
 const { code } = compile(sourceCode)
 console.log(code);
+// output: const world = () => {};

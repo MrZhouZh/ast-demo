@@ -12,3 +12,9 @@ const { code } = core.transform(sourceCode, {
 })
 
 console.log(code);
+// output:
+// var _this = this;
+// const sum = function (a, b) {
+//   console.log(_this);
+//   return a + b;
+// };

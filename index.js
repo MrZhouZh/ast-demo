@@ -44,11 +44,15 @@ function compile(code) {
   return generator.default(ast, {}, code)
 }
 
-const code = `
+const sourceCode = `
 function getData() {
   console.log('data')
 }`;
 
 
-const newCode = compile(code)
-console.log(newCode.code);
+const { code } = compile(sourceCode)
+console.log(code);
+// output: 
+// function getData() {
+//   console.log("getData", 'data');
+// }
