@@ -30,4 +30,11 @@ module.exports = {
   }
 }
 
+// --- 初始 ---
+// import { flatten, concat } from 'lodash'
 // asset bundle.js 555 KiB [emitted] (name: main)
+
+// ----- 修改后 ---
+// import flatten from 'lodash/flatten'
+// import concat from 'lodash/concat'
+// asset bundle.js 26.9 KiB [emitted] (name: main)
