@@ -14,6 +14,7 @@ const tsCheckPlugin = {
     file.set('errors', [])
   },
   visitor: {
+    // 直接赋值场景
     VariableDeclarator(path, state) {
       const errors = state.file.get('errors');
       const { node } = path;

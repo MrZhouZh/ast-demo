@@ -27,3 +27,6 @@ category: JavaScript
 - [实现监控系统日志插件](./plugins/babel-plugin-auto-import-log.js)
 - [实现no-console的eslint插件](./plugins/babel-plugin-no-console-eslint.js)
 - [实现代码压缩插件](./plugins/babel-plugin-uglify.js)
+- [实现lodash按需加载插件](./plugins/babel-plugin-import.js)
+- [实现TypeScript类型校验插件 - 直接赋值场景](./plugins/babel-plugin-ts-check.js)
+- [实现TypeScript类型校验插件 - 先声明后赋值场景](./plugins/babel-plugin-ts-check2.js)

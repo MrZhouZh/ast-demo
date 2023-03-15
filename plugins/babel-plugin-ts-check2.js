@@ -21,6 +21,7 @@ const tsCheckPlugin = {
     file.set('errors', [])
   },
   visitor: {
+    // 先声明后赋值
     AssignmentExpression(path, state) {
       const errors = state.file.get('errors')
       // 先获取左侧变量的定义
