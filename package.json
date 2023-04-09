@@ -2,8 +2,10 @@
 	"name": "ast-demo",
 	"version": "0.0.1",
 	"author": "zekechow",
+	"sideEffects": false,
 	"scripts": {
-		"dev": "webpack --config ./webpack.config.dev.js --mode=development"
+		"dev": "webpack --config ./webpack.config.dev.js --mode=development",
+		"dev:tree-shaking": "webpack --config ./webpack.config.treeshaking.js --mode=development"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.21.0",
