@@ -30,6 +30,6 @@ module.exports = {
     // 启动标记功能
     usedExports: true,
     // 启用 TerserPlugin, 或者命令接口使用 --optimize-minimize 标记
-    // minimize: true,
+    minimize: true,
   }
 }
