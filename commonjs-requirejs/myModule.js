@@ -36,8 +36,6 @@ MyModule._load = function(request) {  // request 传入的路径
   // 如果缓存不存在, 则加载这个模块
   const module = new MyModule(filename)
 
-  console.log(module)
-
   MyModule._cache[filename] = module
 
   module.load(filename)
@@ -52,8 +50,6 @@ MyModule._resolveFilename = function(request) {
 MyModule.prototype.load = function(filename) {
   const extname = path.extname(filename)
   
-  console.log(`extname: ${extname}`);
-
   MyModule._extensions[extname](this, filename)
 
   this.loaded = true
@@ -78,13 +74,13 @@ MyModule.prototype._compile = function(content, filename) {
 }
 
 const myModuleInstance = new MyModule()
-const myRequire = (id) => {
+const MyRequire = (id) => {
   return myModuleInstance.require(id)
 }
 
 module.exports = {
   MyModule,
-  myRequire,
+  MyRequire,
 }
 
 
