@@ -1,6 +1,12 @@
-const path = require('path');
-const vm = require('vm');
-const fs = require('fs');
+// const path = require('path');
+// const vm = require('vm');
+// const fs = require('fs');
+
+// refs: https://juejin.cn/post/7208726578121261112
+// 查看两种用法的区别
+const path = require('node:path')
+const vm = require('node:vm')
+const fs = require('node:fs')
 
 function MyModule(id = '') {
   this.id = id
